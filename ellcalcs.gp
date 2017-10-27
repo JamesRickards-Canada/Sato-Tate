@@ -1,3 +1,5 @@
+/*This code computes the a_p of elliptic curves.*/
+
 \\e=ellinit([0,0,1,-2248232106757,1329472091379662406]);
 K=nfinit(a^2+3); e=ellinit([0,0,1,0,1],K)
 \\K=nfinit(a^2-5); e=ellinit([1,a+1,a,a,0],K);
